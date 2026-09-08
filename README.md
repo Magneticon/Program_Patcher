@@ -1,4 +1,4 @@
-# Program_Patcher
+# Program Patcher (PP)
 Simple program for patching the target Windows NT version of executables.
 
 It only changes the target OS system and subsystem version. Nothing else. If you would want to port a program to older OS, you'll need to load it into the Dependency Walker and track all library calls, which are not resolved in your target system and (and if any) resolve them separately.
