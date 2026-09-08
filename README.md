@@ -1,7 +1,7 @@
 # Program Patcher (PP)
 Simple program for patching the target Windows NT version of executables.
 
-It only changes the target OS system and subsystem version. Nothing else. If you would want to port a program to older OS, you'll need to load it into the Dependency Walker and track all library calls, which are not resolved in your target system and (and if any) resolve them separately.
+It only changes the target OS system and subsystem version. Nothing else. If you would want to port a program to older OS, you'll need to load it into the Dependency Walker and track all library calls, which are not resolved in your target system and (if any) resolve them separately.
 
 This program is helpful, if you target C/C++ programs on MS Visual Studio 2010 on XP, as it targets Win NT 5.01 (Win XP) by default and it is not possible to change it in the Visual Studio itself. You can run Program Patcher on your final x86 executable to set the system flag to some suitable OS, like Windows NT 3.5.
 
